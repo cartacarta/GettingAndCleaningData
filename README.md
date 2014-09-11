@@ -1,8 +1,8 @@
 ## Coursera:   Getting and Cleaning Data class
-### Project:    Final course project
-### CourseID:   get-data007
-### Author:     Alejandro Gutierrez
-### Created:    09/11/2014
+* Project:    Final course project
+* CourseID:   get-data007
+* Author:     Alejandro Gutierrez
+* Created:    09/11/2014
 
 ### Notes: 
 * The script assumes the working folder is "UCI HAR Dataset" and contains features.txt, activity_labels.txt and folders for train and test data
