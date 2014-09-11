@@ -16,12 +16,10 @@ The general logic for the script is:
 4. Read train and test feature vectors and then merge
 5. Create a dplyr table by column bind Labels, Subjects, and Features into single table
 6. Generate the final clean full set by:
-   6a. Select only mean() and std() columns for each value using "contains"
-   6b. Map ActivityIds to the ActivityNames using inner_join
-   6c. Remove the ActivityId field that is no longer used as it was replaced by the ActivityName
+   * Select only mean() and std() columns for each value using "contains"
+   * Map ActivityIds to the ActivityNames using inner_join
+   * Remove the ActivityId field that is no longer used as it was replaced by the ActivityName
 7. From the cleaned data set create a second, independent tidy data set with the average of each variable for each activity and each subject:
-   7a. Create a group_by by SubjectId and ActivityName
-   7b. Use summarise_each function wich allows to apply the same function to all columns, in this case mean()
+   * Create a group_by by SubjectId and ActivityName
+   *. Use summarise_each function wich allows to apply the same function to all columns, in this case mean()
 8. Write to file as specified in project (row.name=FALSE)
-
-

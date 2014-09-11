@@ -1,5 +1,5 @@
 ## All Averages Per Subject and Activity CodeBook
-### Please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for source dataset description fields
+* Please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for source dataset description fields
 
 FeatureId | FeatureName | Unit | Desc
 --------- | ----------- | ---- | ----
